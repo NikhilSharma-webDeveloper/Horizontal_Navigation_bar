@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.horizontalNavBar{
+    background-color: #333;
+    margin: 20px;
+
+}
+.horizontalNavBar a{
+    color: #fefefe;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 10px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.horizontalNavBar .active{
+    background-color: red;
+}
+
+.horizontalNavBar a:hover{
+    background-color: black;
+}
